@@ -15,6 +15,3 @@ ForEach ($file in $files) {
         Move-Item $target $file.FullName
     }     
 }
-
-#7.86GB -> 5.19GB
-#28GB
